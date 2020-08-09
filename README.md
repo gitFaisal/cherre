@@ -8,22 +8,23 @@ Solution to challenge:
                        
 Extra things done:
 
-1) Django Framework: - Used Django to create models for FrequentBrowser data.
-                     - Used csv.DictReader to loop through the FrequentBrowser data and insert rows into Django model.
-                     - Used Django rest_framework to create API from model. 
+1) Django Framework:<br> 
+                    - Used Django to create models for FrequentBrowser data.<br>
+                     - Used csv.DictReader to loop through the FrequentBrowser data and insert rows into Django model.<br>
+                     - Used Django rest_framework to create API from model. <br>
                  
-2) Docker Container: - Created Dockerfile in project directory for app.
-                     - Created Dockerfile for nginx.
-                     - Configured docker-compose.yml to manage the two containers. 
+2) Docker Container:<br> - Created Dockerfile in project directory for app.<br>
+                     - Created Dockerfile for nginx.<br>
+                     - Configured docker-compose.yml to manage the two containers. <br>
                      
-3) Hosted API on AWS: < https://www.cherreapi.tk/ > 
-                      - GitHub Repo: < https://github.com/gitFaisal/cherre2 >
-                      - Created an EC2 instance.
-                      - Connected to instance via SSH & ran docker container.(after updates/necessary downloads) 
-                      - Created Security groups, SSL certificate, Load Balancer control web traffic + use SSL certificate for security,
-                        & target groups. 
+3) Hosted API on AWS:<br>< https://www.cherreapi.tk/ > <br>
+                      - GitHub Repo: < https://github.com/gitFaisal/cherre2 ><br>
+                      - Created an EC2 instance.<br>
+                      - Connected to instance via SSH & ran docker container.(after updates/necessary downloads) <br>
+                      - Created Security groups, SSL certificate, Load Balancer control web traffic + use SSL certificate for security,<br>
+                        & target groups.<br> 
 
-4) React deployed on github: < https://gitfaisal.github.io/frequentbrowsers/ >
-                      - GitHub Repo: < https://github.com/gitFaisal/frequentbrowsers >
-                      - Used React.js to create a dynamic table to consume/display FrequentBrowers data from < www.cherreapi.tk >.
-                      - Deployed to GitHub pages.
+4) React deployed on github:<br> < https://gitfaisal.github.io/frequentbrowsers/ ><br>
+                      - GitHub Repo: < https://github.com/gitFaisal/frequentbrowsers ><br>
+                      - Used React.js to create a dynamic table to consume/display FrequentBrowers data from < www.cherreapi.tk >.<br>
+                      - Deployed to GitHub pages.<br>
