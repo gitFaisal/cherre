@@ -26,5 +26,5 @@ Extra things done:
 
 4) React deployed on github:<br> < https://gitfaisal.github.io/frequentbrowsers/ ><br>
                       - GitHub Repo: < https://github.com/gitFaisal/frequentbrowsers ><br>
-                      - Used React.js to create a dynamic table to consume/display FrequentBrowers data from < www.cherreapi.tk >.<br>
+                      - Used React.js to create a dynamic table to consume/display FrequentBrowers data from API>.<br>
                       - Deployed to GitHub pages.<br>
